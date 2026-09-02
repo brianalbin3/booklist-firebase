@@ -11,7 +11,7 @@ function AddBookPage() {
     function handleAddBook(e) {
         e.preventDefault();
 
-        const newBook = {
+        const newBook = {  
             title: document.querySelector('input[name=title]').value,
             cover: document.querySelector('input[name=cover]').value,
             isRead: false,
